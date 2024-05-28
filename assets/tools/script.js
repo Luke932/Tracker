@@ -74,7 +74,7 @@ function aggiornaElencoObiettivi() {
         } else {
             goals.forEach((goal, index) => {
                 const goalElement = document.createElement('li');
-                goalElement.textContent = `${index + 1}. Descrizione: ${goal.descrizione} - Scadenza: ${goal.scadenza}`;
+                goalElement.textContent = `${index + 1}. Descrizione: ${goal.descrizione} - Scadenza: ${goal.scadenza} 👍`;
 
                 // Aggiungi bottoni Modifica ed Elimina
                 const editButton = document.createElement('button');

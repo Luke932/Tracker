@@ -1,68 +1,89 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ccb5b5;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-label {
-    margin-bottom: 5px;
+form label {
+  margin-bottom: 5px;
 }
 
-input, button {
-    margin-bottom: 10px;
-    padding: 8px;
-    font-size: 16px;
+form input {
+  width: 30%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* include il padding nella larghezza */
+  text-align: center; /* allinea il testo al centro */
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+#obiettivi-attuali {
+  text-align: center;
+}
+
+input,
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
 }
 
 button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 /* Stile per i pulsanti */
 .modifica-button {
-    background-color: yellow;
-    color: black;
-    margin-right: 10px; /* Aggiungi spazio a destra */
-    margin-left: 10px;
+  background-color: yellow;
+  color: black;
+  margin-right: 10px; /* Aggiungi spazio a destra */
+  margin-left: 10px;
 }
 
 .elimina-button {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }

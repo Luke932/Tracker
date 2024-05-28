@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracker degli Obiettivi</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>👌Benvenuto nel Tracker degli Obiettivi!</h1>
+    </header>
+    <form id="aggiungi-form">
+      <label for="descrizione">Descrizione dell'obiettivo:</label>
+      <input type="text" id="descrizione" name="descrizione" required />
+
+      <label for="scadenza">Scadenza dell'obiettivo (GG-MM-AA):</label>
+      <input type="text" id="scadenza" name="scadenza" required />
+
+      <button type="submit">Aggiungi obiettivo</button>
+    </form>
+
+    <div id="obiettivi-attuali">
+      <h2>Obiettivi attuali:</h2>
+      <ul id="elenco-obiettivi"></ul>
+    </div>
+
+    <script type="module" src="assets/tools/script.js"></script>
+    <script type="module" src="assets/tools/database.js"></script>
+  </body>
+</html>

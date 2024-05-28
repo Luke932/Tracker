@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "start": "live-server --browser=chrome"
+  },
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  },
   "dependencies": {
     "inquirer": "^9.2.22"
   }
