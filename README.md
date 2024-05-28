@@ -6,20 +6,6 @@ Descrizione 📝
 Questo progetto è stato creato per aiutarti a tenere traccia dei tuoi obiettivi. Puoi aggiungere, modificare ed eliminare i tuoi obiettivi in modo semplice ed efficace. 🎉🗓️
 Struttura del Progetto 📁
 
-markdown
-
-progetto-goal-tracker/
-├── index.html
-├── assets/
-│   ├── styles/
-│   │   └── styles.css
-│   └── tools/
-│       ├── database.js
-│       └── script.js
-└── terminal/
-    ├── goal.mjs
-    └── index.mjs
-
 Tecnologie Utilizzate 💻
 
     HTML 🖥️
